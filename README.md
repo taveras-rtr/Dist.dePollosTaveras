@@ -21,7 +21,7 @@ SDP propone una solución informática que permita centralizar la información c
 
 ### 3.1. Objetivo general
 
-Diseñar una solución informática para la gestión de las principales operaciones comerciales de Dist. de Pollos Taveras, aplicando principios de ingeniería de software para organizar los requisitos, definir la arquitectura, modelar las funcionalidades y establecer mecanismos de seguimiento y control del desarrollo.
+Diseñar una solución informática para la gestión de las principales operaciones comerciales de las Distribuidoras de Pollos, aplicando principios de ingeniería de software para organizar los requisitos, definir la arquitectura, modelar las funcionalidades y establecer mecanismos de seguimiento y control del desarrollo.
 
 ### 3.2. Objetivos específicos
 
