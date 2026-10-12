@@ -1,22 +1,21 @@
-# Sistema de Gestión - Dist. de Pollos Taveras
-
+# SDP - Sistema de Distribución de Pollos
 ## 1. Descripción del proyecto
 
-Dist. de Pollos Taveras es un proyecto de desarrollo de software orientado a diseñar una solución informática para organizar y gestionar las operaciones comerciales de una empresa dedicada a la distribución de pollos.
+SDP (Sistema de Distribución de Pollos) es un proyecto de desarrollo de software orientado al diseño de una solución informática para organizar y gestionar las operaciones comerciales relacionadas con la distribución de pollos.
 
 La propuesta contempla la administración de productos, precios, inventario, ventas, facturación, clientes, pagos y cuentas por cobrar.
 
 El proyecto aborda las distintas actividades del proceso de desarrollo de software, incluyendo el análisis de requisitos, el modelado mediante UML, el diseño arquitectónico, la gestión de tareas, la identificación de riesgos y el control de versiones.
 
-Como parte de la asignatura Ingeniería de Software I, se utiliza GitHub para centralizar la documentación, registrar los cambios y organizar el seguimiento de las actividades.
+Como parte de la asignatura Ingeniería de Software I, se utiliza GitHub para centralizar la documentación, registrar los cambios y organizar el seguimiento de las actividades del proyecto.
 
 ## 2. Problema que se busca resolver
 
-La gestión comercial de una empresa distribuidora requiere mantener información organizada sobre sus productos, precios, existencias, ventas, facturas y pagos.
+La gestión comercial de las empresas dedicadas a la distribución de pollos requiere mantener información organizada sobre sus productos, precios, existencias, ventas, facturas y pagos.
 
 La falta de una estructura adecuada para administrar esta información puede provocar inconsistencias en los registros, dificultades para consultar datos y problemas para dar seguimiento a las operaciones pendientes.
 
-Dist. de Pollos Taveras propone una solución informática que permita centralizar la información comercial y facilitar su administración mediante funcionalidades organizadas de acuerdo con las necesidades del negocio.
+SDP propone una solución informática que permita centralizar la información comercial y facilitar su administración mediante funcionalidades organizadas de acuerdo con las necesidades de este sector comercial.
 
 ## 3. Objetivos del proyecto
 
@@ -185,7 +184,7 @@ El estado de implementación de las funcionalidades y de cada actividad se actua
 
 ## 12. Autoría
 
-**Proyecto:** Dist. de Pollos Taveras  
+**Proyecto:** SDP - Sistema de Distribución de Pollos                                                                                                                                
 **Área académica:** Ingeniería de Software  
 **Institución:** Universidad Abierta para Adultos (UAPA)
 
