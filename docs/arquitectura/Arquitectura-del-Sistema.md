@@ -1,7 +1,7 @@
 # Arquitectura del Sistema
 
-**Proyecto:** Dist. de Pollos Taveras  
-**Documento:** Especificación de la arquitectura de software  
+**Proyecto:** SDP - Sistema de Distribución de Pollos                                                                                                                            
+**Documento:** Especificación de la arquitectura de software                                                         
 **Versión:** 1.0
 
 ## 1. Introducción
@@ -18,7 +18,7 @@ Esta separación busca facilitar la comprensión del sistema, favorecer su mante
 
 ### 2.1. Objetivo general
 
-Definir una arquitectura de software que organice los componentes de Dist. de Pollos Taveras mediante la separación de responsabilidades, facilitando el mantenimiento, la evolución y la gestión de la información del sistema.
+Definir una arquitectura de software que organice los componentes de SDP (Sistema de Distribución de Pollos) mediante la separación de responsabilidades, facilitando el mantenimiento, la evolución y la gestión de la información del sistema.
 
 ### 2.2. Objetivos específicos
 
@@ -296,10 +296,8 @@ La aplicación consistente de estos principios puede contribuir a mejorar la man
 
 ## 13. Autoría
 
-**Proyecto:** Dist. de Pollos Taveras
+**Proyecto:** SDP - Sistema de Distribución de Pollos
 
 **Asignatura:** Ingeniería de Software I
-
-**Área académica:** Ingeniería de Software
 
 **Institución:** Universidad Abierta para Adultos (UAPA)
