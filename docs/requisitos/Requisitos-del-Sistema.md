@@ -1,6 +1,6 @@
 # Especificación de Requisitos del Sistema
 
-**Proyecto:** Dist. de Pollos Taveras  
+**Proyecto:** SDP - Sistema de Distribución de Pollos  
 **Documento:** Especificación de requisitos de software  
 **Versión:** 1.0  
 **Asignatura:** Ingeniería de Software I  
@@ -227,10 +227,8 @@ La versión de la documentación deberá mantenerse coherente con los modelos UM
 
 ## 14. Autoría
 
-**Proyecto:** Dist. de Pollos Taveras
+**Proyecto:** SDP - Sistema de Distribución de Pollos
 
 **Asignatura:** Ingeniería de Software I
-
-**Área académica:** Ingeniería de Software
 
 **Institución:** Universidad Abierta para Adultos (UAPA)
