@@ -288,7 +288,7 @@ Las futuras modificaciones deberán mantener la coherencia entre los requisitos,
 
 ## 12. Conclusión
 
-La arquitectura por capas proporciona una estructura conceptual para organizar Dist. de Pollos Taveras de forma modular y comprensible.
+La arquitectura por capas proporciona una estructura conceptual para organizar SDP de forma modular y comprensible.
 
 La separación entre presentación, lógica de negocio y acceso a datos permite establecer responsabilidades claras y facilita el análisis de las dependencias entre los componentes.
 
