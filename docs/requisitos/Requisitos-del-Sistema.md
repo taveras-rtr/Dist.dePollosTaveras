@@ -217,7 +217,7 @@ La correspondencia definitiva entre requisitos y componentes deberá verificarse
 
 ## 13. Estado y mantenimiento del documento
 
-Este documento constituye una especificación inicial de requisitos elaborada como parte del proyecto académico Dist. de Pollos Taveras.
+Este documento constituye una especificación inicial de requisitos elaborada como parte del proyecto académico.
 
 Los requisitos aquí definidos representan las necesidades funcionales y técnicas contempladas para la solución propuesta.
 
