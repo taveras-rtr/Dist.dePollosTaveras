@@ -20,7 +20,7 @@ Este documento constituye una base para mantener la coherencia entre las necesid
 
 ## 2. Propósito del sistema
 
-El propósito del sistema es facilitar la gestión y el control de las operaciones comerciales de Dist. de Pollos Taveras mediante una aplicación informática que permita administrar productos, precios, inventario, ventas, facturas, clientes, pagos y cuentas por cobrar.
+El propósito del sistema es facilitar la gestión y el control de las operaciones comerciales mediante una aplicación informática que permita administrar productos, precios, inventario, ventas, facturas, clientes, pagos y cuentas por cobrar.
 
 La solución busca centralizar la información relevante del negocio, reducir la duplicidad de registros y facilitar la consulta de datos necesarios para las operaciones comerciales.
 
