@@ -10,11 +10,19 @@
 
 ## 1. Introducción
 
-El presente documento establece los requisitos funcionales y no funcionales del SDP (Sistema de Distribución de Pollos). Su propósito es definir las funcionalidades principales, las condiciones de funcionamiento y los criterios de aceptación que servirán como referencia para el diseño, la planificación y la evaluación del sistema.
+La ingeniería de requisitos constituye una etapa fundamental del ciclo de vida del software, ya que permite identificar, analizar, documentar y validar las necesidades que el sistema debe satisfacer.
+
+El presente documento establece la especificación inicial de requisitos del sistema  SDP(Sistema de Distribución de Pollo), una solución informática propuesta para apoyar la administración de las operaciones comerciales de una empresa dedicada a la distribución de pollos.
+
+La especificación define las funcionalidades principales, las restricciones técnicas, los atributos de calidad y los criterios generales de aceptación que servirán como referencia para las actividades posteriores de diseño, implementación y pruebas.
+
+Este documento constituye una base para mantener la coherencia entre las necesidades identificadas, los modelos UML, la arquitectura propuesta y las tareas de desarrollo registradas en GitHub.
 
 ## 2. Propósito del sistema
 
-SDP tiene como propósito organizar y facilitar la gestión de las principales operaciones comerciales relacionadas con la distribución de pollos, permitiendo consultar productos, actualizar precios, controlar las existencias y registrar las ventas.
+El propósito del sistema es facilitar la gestión y el control de las operaciones comerciales de distribución  de Pollos mediante una aplicación informática que permita administrar productos, precios, inventario, ventas, facturas, clientes, pagos y cuentas por cobrar.
+
+La solución busca centralizar la información relevante del negocio, reducir la duplicidad de registros y facilitar la consulta de datos necesarios para las operaciones comerciales.
 
 ## 3. Alcance del sistema
 
