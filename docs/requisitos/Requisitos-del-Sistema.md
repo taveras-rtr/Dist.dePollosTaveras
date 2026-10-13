@@ -10,19 +10,11 @@
 
 ## 1. Introducción
 
-La ingeniería de requisitos constituye una etapa fundamental del ciclo de vida del software, ya que permite identificar, analizar, documentar y validar las necesidades que el sistema debe satisfacer.
-
-El presente documento establece la especificación inicial de requisitos del sistema Dist. de Pollos Taveras, una solución informática propuesta para apoyar la administración de las operaciones comerciales de una empresa dedicada a la distribución de pollos.
-
-La especificación define las funcionalidades principales, las restricciones técnicas, los atributos de calidad y los criterios generales de aceptación que servirán como referencia para las actividades posteriores de diseño, implementación y pruebas.
-
-Este documento constituye una base para mantener la coherencia entre las necesidades identificadas, los modelos UML, la arquitectura propuesta y las tareas de desarrollo registradas en GitHub.
+El presente documento establece los requisitos funcionales y no funcionales del SDP (Sistema de Distribución de Pollos). Su propósito es definir las funcionalidades principales, las condiciones de funcionamiento y los criterios de aceptación que servirán como referencia para el diseño, la planificación y la evaluación del sistema.
 
 ## 2. Propósito del sistema
 
-El propósito del sistema es facilitar la gestión y el control de las operaciones comerciales mediante una aplicación informática que permita administrar productos, precios, inventario, ventas, facturas, clientes, pagos y cuentas por cobrar.
-
-La solución busca centralizar la información relevante del negocio, reducir la duplicidad de registros y facilitar la consulta de datos necesarios para las operaciones comerciales.
+SDP tiene como propósito organizar y facilitar la gestión de las principales operaciones comerciales relacionadas con la distribución de pollos, permitiendo consultar productos, actualizar precios, controlar las existencias y registrar las ventas.
 
 ## 3. Alcance del sistema
 
@@ -45,17 +37,15 @@ La incorporación de nuevas funcionalidades deberá evaluarse según las necesid
 
 Los interesados son las personas o grupos que pueden influir en el sistema o verse afectados por sus resultados.
 
-Para este proyecto académico se identifican los siguientes perfiles:
+Para este proyecto se identifican los siguientes perfiles:
 
 | Interesado o usuario | Responsabilidad o interés |
 |---|---|
 | Propietario o administrador | Supervisar las operaciones comerciales y consultar información del negocio. |
 | Personal de ventas | Consultar productos y precios, y registrar las operaciones de venta que le correspondan. |
 | Personal de inventario | Consultar existencias y registrar los movimientos autorizados. |
-| Personal administrativo | Consultar facturas, clientes, pagos y cuentas por cobrar. |
-| Equipo de desarrollo | Analizar, diseñar, documentar y dar seguimiento a la solución propuesta. |
 
-Esta identificación constituye una propuesta inicial. Los perfiles definitivos y sus permisos deberán establecerse de acuerdo con las necesidades del negocio.
+Esta identificación constituye una propuesta inicial. Los perfiles definitivos y sus permisos deberán establecerse de acuerdo con las necesidades comerciales.
 
 ## 5. Clasificación de los requisitos
 
@@ -73,54 +63,42 @@ Esta clasificación permite analizar las necesidades del sistema desde una persp
 
 ## 6. Requisitos funcionales
 
-Los siguientes requisitos definen las principales operaciones contempladas para el sistema.
+Los requisitos funcionales establecen las principales operaciones que deberá realizar SDP, de acuerdo con las necesidades identificadas.
 
-| Código | Nombre | Descripción | Prioridad |
+| Código | Descripción | Prioridad | Criterio de aceptación |
 |---|---|---|---|
-| RF-01 | Gestión de productos | El sistema deberá permitir registrar, consultar y actualizar la información de los productos. | Alta |
-| RF-02 | Gestión de precios | El sistema deberá permitir consultar y administrar los precios asociados a los productos. | Alta |
-| RF-03 | Control de inventario | El sistema deberá permitir registrar y consultar los movimientos de inventario. | Alta |
-| RF-04 | Registro de ventas | El sistema deberá permitir registrar las operaciones de venta y calcular sus importes correspondientes. | Alta |
-| RF-05 | Gestión de facturas | El sistema deberá permitir registrar y consultar la información de las facturas relacionadas con las operaciones comerciales. | Alta |
-| RF-06 | Gestión de clientes | El sistema deberá permitir registrar, consultar y actualizar la información de los clientes. | Alta |
-| RF-07 | Cuentas por cobrar | El sistema deberá permitir consultar las facturas pendientes y dar seguimiento a los importes pendientes de pago. | Alta |
-| RF-08 | Gestión de pagos | El sistema deberá permitir registrar y consultar los pagos asociados a las operaciones comerciales. | Alta |
-
-Las prioridades representan una clasificación inicial propuesta para el proyecto. Podrán ajustarse durante la planificación, según las necesidades de los usuarios y las dependencias entre funcionalidades.
+| RF-01 | Consultar los productos registrados. | Alta | El usuario podrá visualizar los productos disponibles y su información. |
+| RF-02 | Actualizar los precios de los productos. | Alta | El administrador podrá modificar los precios y guardar los nuevos valores. |
+| RF-03 | Consultar y actualizar el inventario. | Alta | El usuario podrá consultar las existencias y actualizar las cantidades. |
+| RF-04 | Registrar las ventas realizadas. | Alta | El usuario podrá registrar productos y cantidades y completar la venta. |
+| RF-05| Consultar las cuentas por cobrar pendientes. | Alta | El administrador podrá visualizar las cuentas pendientes y consultar la información correspondiente. |
 
 ### 6.1. Dependencias entre requisitos
 
-Algunas funcionalidades requieren información o servicios proporcionados por otras áreas del sistema.
+Las funcionalidades presentan las siguientes relaciones:
 
 | Requisito | Dependencia principal |
 |---|---|
-| RF-01: Gestión de productos | Información básica de los productos. |
-| RF-02: Gestión de precios | Productos registrados. |
-| RF-03: Control de inventario | Productos y reglas de movimiento de inventario. |
-| RF-04: Registro de ventas | Productos, precios y reglas comerciales. |
-| RF-05: Gestión de facturas | Información de ventas y clientes, cuando corresponda. |
-| RF-06: Gestión de clientes | Registro y consulta de clientes. |
-| RF-07: Cuentas por cobrar | Facturas y registro de pagos relacionados. |
-| RF-08: Gestión de pagos | Operaciones comerciales y documentos pendientes de pago, según corresponda. |
+| RF-01: Consulta de productos | Información de los productos registrados. |
+| RF-02: Actualización de precios | Productos registrados. |
+| RF-03: Control de inventario | Productos y existencias registradas. |
+| RF-04: Registro de ventas | Productos disponibles, precios y cantidades. |
+| RF-05: Consulta de cuentas | Cuentas pendientes y la información correspondiente. |
 
-Estas dependencias deberán tenerse en cuenta al diseñar los módulos, establecer el orden de desarrollo y preparar las pruebas de integración.
+Estas dependencias deberán considerarse al organizar las funcionalidades y verificar su funcionamiento.
 
 ## 7. Requisitos no funcionales
 
-Los requisitos no funcionales definen las condiciones de calidad que deberá satisfacer el sistema.
+Los requisitos no funcionales establecen las condiciones de seguridad, integridad y usabilidad que deberá cumplir SDP.
 
-| Código | Atributo | Requisito |
-|---|---|---|
-| RNF-01 | Seguridad | El sistema deberá controlar el acceso a las funcionalidades y proteger las credenciales y la información según los permisos definidos. |
-| RNF-02 | Integridad | Las operaciones deberán preservar la consistencia de los datos mediante validaciones, restricciones y transacciones cuando corresponda. |
-| RNF-03 | Usabilidad | La interfaz deberá presentar información comprensible y permitir que los usuarios identifiquen las operaciones disponibles. |
-| RNF-04 | Mantenibilidad | El diseño deberá favorecer la separación de responsabilidades y reducir las dependencias innecesarias entre componentes. |
-| RNF-05 | Rendimiento | Las consultas y operaciones deberán responder en tiempos adecuados para el volumen de información y las condiciones de uso previstas. |
-| RNF-06 | Recuperación | Deberán definirse mecanismos de respaldo y procedimientos de recuperación de la información. |
-| RNF-07 | Compatibilidad | La aplicación deberá ejecutarse en los entornos Windows y las versiones de .NET que se determinen como compatibles con la solución. |
-| RNF-08 | Trazabilidad | Los requisitos deberán identificarse mediante códigos únicos y relacionarse con los modelos, las tareas y las pruebas correspondientes. |
+| Código | Descripción | Prioridad | Criterio de aceptación |
+|---|---|---|---|
+| RNF-01 | Requerir autenticación para acceder a las funciones protegidas. | Alta | Los usuarios deberán iniciar sesión para acceder al sistema. |
+| RNF-02 | Controlar el acceso según los permisos del usuario. | Alta | Cada usuario podrá acceder únicamente a las funciones autorizadas. |
+| RNF-03 | Mantener la integridad de la información almacenada. | Alta | Las operaciones no deberán generar datos duplicados o inconsistentes. |
+| RNF-04 | Proporcionar una interfaz sencilla y fácil de utilizar. | Media | Los usuarios podrán realizar las operaciones principales de forma clara y comprensible. |
 
-Estos requisitos describen objetivos de calidad. Sus criterios específicos de medición deberán definirse y verificarse durante las etapas de diseño y pruebas.
+Estos requisitos permiten establecer condiciones para verificar la seguridad, la consistencia de los datos y la facilidad de uso del sistema.
 
 ## 8. Restricciones y decisiones técnicas
 
@@ -174,14 +152,12 @@ La siguiente tabla presenta una estructura inicial de trazabilidad:
 
 | Código | Área funcional | Elementos relacionados |
 |---|---|---|
-| RF-01 | Productos | Casos de uso, diseño de la funcionalidad y tareas relacionadas. |
-| RF-02 | Precios | Casos de uso, reglas de precios y tareas relacionadas. |
-| RF-03 | Inventario | Casos de uso, movimientos de inventario y pruebas correspondientes. |
-| RF-04 | Ventas | Casos de uso, flujo de ventas y pruebas correspondientes. |
-| RF-05 | Facturación | Casos de uso, diseño de facturación y pruebas correspondientes. |
-| RF-06 | Clientes | Casos de uso, estructura de información y tareas relacionadas. |
-| RF-07 | Cuentas por cobrar | Casos de uso, reglas de seguimiento y pruebas correspondientes. |
-| RF-08 | Pagos | Casos de uso, operaciones de pago y pruebas correspondientes. |
+| RF-01 | Productos | HU-01 - Consulta de productos, casos de uso y tareas relacionadas.|
+| RF-02 | Precios | HU-02 - Gestión de precios, reglas de precios y tareas relacionadas. |
+| RF-03 | Inventario | HU-03 - Control de inventario, movimientos de inventario y pruebas correspondientes. |
+| RF-04 | Ventas | HU-04 - Registro de ventas y facturación, flujo de ventas y pruebas correspondientes. |
+| RF-05 | Cuentas por cobrar | HU-05 - Gestión de cuentas por cobrar y tareas relacionadas. |
+
 
 Esta tabla constituye una base para la trazabilidad. Las relaciones definitivas deberán completarse a partir de los modelos UML, los Issues y los casos de prueba efectivamente documentados.
 
