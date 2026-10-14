@@ -129,7 +129,7 @@ Dist.-de-Pollos-Taveras/
 │
 ├── README.md
 │
-├── docs/
+*── docs/
      ├── requisitos/
      │   └── Requisitos-del-Sistema.md
      │
