@@ -130,22 +130,22 @@ Dist.-de-Pollos-Taveras/
 ├── README.md
 │
 ├── docs/
-│   ├── requisitos/
-│   │   └── Requisitos-del-Sistema.md
-│   │
-│   ├── uml/
-│   │   ├── diagrama-actividades.jpg
-│   │   ├── diagrama-casos-de-uso.jpg
-│   │   ├── diagrama-clases.jpg
-│   │   ├── diagrama-componentes.jpg
-│   │   └── diagrama-secuencia.jpg
-│   │
-│   ├── arquitectura/
-│   │   └── Arquitectura-del-Sistema.md
-│   │
-│   └── gestion-proyecto/
-│
-└── evidencias/
+     ├── requisitos/
+     │   └── Requisitos-del-Sistema.md
+     │
+     ├── uml/
+     │   ├── diagrama-actividades.jpg
+     │   ├── diagrama-casos-de-uso.jpg
+     │   ├── diagrama-clases.jpg
+     │   ├── diagrama-componentes.jpg
+     │   └── diagrama-secuencia.jpg
+     │
+     ├── arquitectura/
+     │   └── Arquitectura-del-Sistema.md
+     │
+     └── gestion-proyecto/
+
+
 ```
 
 ## 9. Control de versiones y seguimiento
